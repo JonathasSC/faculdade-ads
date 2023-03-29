@@ -1,0 +1,72 @@
+:root {
+	--secundary-text: #aaaaaa;
+	--background: #0e0e0e;
+	--primary-text: #ecf6ff;
+}
+
+
+/* Header */
+
+header {
+	background-color: var(--background);
+
+	align-items: center;
+	display: flex;
+
+	justify-content: space-between;
+	color: var(--primary-text);
+	height: 5rem;
+	width: 100%;
+
+	padding: 0 2rem;
+
+	position: fixed;
+}
+
+.nav-list {
+	display: flex;
+	gap: 10rem;
+
+	list-style: none;
+	text-align: center;
+}
+
+.main-container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+
+	justify-content: space-between;
+}
+
+.container-child,
+.container-img {
+	width: 50%;
+}
+
+.container-child p {
+	color:#aaaaaa ;
+}
+
+.container-img {
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+
+	padding: 0 5rem;
+}
+
+.container-img img {
+	width: 80%;
+}
+
+.container-texts {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	justify-content: center;
+
+	padding: 0 20%;
+	width: 100%;
+}
