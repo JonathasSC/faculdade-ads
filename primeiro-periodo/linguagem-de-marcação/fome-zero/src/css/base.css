@@ -3,15 +3,17 @@
 :root {
 	font-size: 63.5%;
 
+	/* vars default */
 	--background: #0e0e0e;
 	--primary-text: #ecf6ff;
 	--secundary-text: #aaaaaa;
+	--white: #fcfcfc;
+
+	--fade-transition: all ease .5s;
 }
 
-.dark-mode:root {
-	--background:#e6e6e6;
-	--primary-text: #1b1b1b;
-	--secundary-text: #555555;
+.deactive {
+	display: none;
 }
 
 * { 
