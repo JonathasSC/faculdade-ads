@@ -1,0 +1,22 @@
+@media (max-width: 800px) {
+	.container-img {
+		display: none;
+	}
+	.container-child {
+		width: 100%;
+		text-align: center;
+	}
+	.main-container {
+		background-image: url(/src/images/background-mobile.png);
+		background-position: center;
+	}
+}
+
+@media (max-width: 1200px) {
+	body {
+		overflow-x:hidden ;
+	}
+	.container-img img {
+		width: 190%;
+	}
+}
