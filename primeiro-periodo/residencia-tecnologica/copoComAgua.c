@@ -11,7 +11,7 @@ int main () {
 	scanf("%f",&num2);
 	
 	result = num1 * num2;
-	printf("A multiplição de %.2f x %.2f = %.2f",num1,num2,result);
+	printf("A multipliÃ§Ã£o de %.2f x %.2f = %.2f",num1,num2,result);
 	
 	return 0;
 }
