@@ -2,11 +2,10 @@
 #include <stdlib.h>
 
 
-int note200, note100, note50, note20, note10, note5, note2, note1 = 0;
-int rest200, rest100, rest50, rest20, rest10, rest5, rest2, rest1 = 0;
-int withdraw = 0;
-
 int main () {
+	int note200, note100, note50, note20, note10, note5, note2, note1 = 0;
+	int rest200, rest100, rest50, rest20, rest10, rest5, rest2, rest1 = 0;
+	int withdraw = 0;
 
 	printf("Digite quanto quer sacar: ");
 	scanf("%d",&withdraw);
@@ -69,7 +68,6 @@ int main () {
 	{
 		printf("%d notas R$1\n",note1);
 	}
-
 
 	return 0;
 }

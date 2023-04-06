@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int num1, num2 , quoci, rest = 0;
 
 int main () {
+	int num1, num2 , quoci, rest = 0;
+	
 	printf("Digite um valor: ");
 	scanf("%i",&num1);
 
@@ -12,7 +13,7 @@ int main () {
 	
 	quoci = num1 / num2;
 	rest = num1 % num2;
-	printf("A divisão de %i / %i = %i \nE sobra: %i",num1,num2,quoci,rest);
+	printf("A divisï¿½o de %i / %i = %i \nE sobra: %i",num1,num2,quoci,rest);
 	
 	return 0;
 }
