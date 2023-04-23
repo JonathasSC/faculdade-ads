@@ -96,10 +96,6 @@ header {
 	width: 50%;
 }
 
-.home-text {
-	color:var(--secundary-text) ;
-}
-
 .home-title,
 .home-hashtag {
 	color: var(--primary-text);
