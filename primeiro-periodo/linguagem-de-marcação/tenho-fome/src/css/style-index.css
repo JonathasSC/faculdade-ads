@@ -82,13 +82,14 @@ header {
 
 /* COntent main container */
 
-.main-container {
+.main-container.index {
 	height: calc(100vh - 5rem);
 	display: flex;
 	align-items: center;
-	gap: 1rem;
+}
 
-	justify-content: space-between;
+.main-container.index{ 
+	padding-bottom: 5rem;
 }
 
 .container-child,
