@@ -8,19 +8,28 @@ int main(){
 	printf("Digite outro numero ");
 	scanf("%i",&num2);
 
-	printf("Qual operacao deseja realizar?\n1- Soma\n2- Subtracao\n3- Divisao\n4- multiplicacao\n: ");
+	printf("Qual operacao deseja realizar?\n"
+	       "1- Soma\n"
+	       "2- Subtracao\n"
+	       "3- Divisao\n"
+	       "4- multiplicacao\n: ");
 	scanf("%i",&option);
-
-	if (option == 1){
-		printf("A soma dos dois valores = %d", num1 + num2);
-	}
-	if (option == 2){
-		printf("A subtração dos dois valores = %d", num1 - num2);
-	}
-	if (option == 3){
-		printf("A Divisão dos dois valores = %d", num1 / num2);
-	}
-	if (option == 4){
-		printf("A Multiplicacao dos dois valores = %d", num1 * num2);
+	
+	switch(option){
+	    case 1:
+	        printf("A soma dos dois valores = %d", num1 + num2);
+	        break;
+	        
+	    case 2:
+	         printf("A subtração dos dois valores = %d", num1 - num2);
+	         break;
+	         
+	    case 3:
+	         printf("A Divisão dos dois valores = %d", num1 / num2);
+	         break;
+	         
+	    case 4:
+	         printf("A Multiplicacao dos dois valores = %d", num1 * num2);
+	         break;
 	}
 }
